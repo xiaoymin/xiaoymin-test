@@ -1,6 +1,6 @@
-import Animal from '../menu/menu'
+import Menu from '../menu/index'
 
-let a = new Animal('张飞');
+let a = new Menu('张飞');
 
 test("SayYes", () => {
     console.log(a.sayYes('关羽'))

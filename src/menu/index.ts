@@ -1,18 +1,18 @@
-class Animal {
+class Menu {
     public name: string;
 
     constructor(name: string) {
         this.name = name;
     }
     sayHi() {
-        return `My name is ${this.name}`;
+        return `My name - is ${this.name}`;
     }
     sayYes(userName: string) {
-        let myName = this.sayHi();
-        let say = `Hi:${userName},${myName}`;
+        const myName = this.sayHi();
+        const say = `Hi:${userName},${myName}`;
         return say;
     }
 }
 
 
-export default Animal;
+export default Menu;
